@@ -1,47 +1,38 @@
-# scholz.technology
+# Scholz
 
-Personal website source for `https://scholz.technology`, built with GitHub Pages and Jekyll.
+## Run locally (GitHub Pages/Jekyll)
 
-## Tech Stack
+This site is configured for GitHub Pages with Jekyll.
 
-- GitHub Pages
-- Jekyll theme: `jekyll-theme-tactile`
-- Custom styles in `assets/css/style.scss`
+### 1) Install prerequisites
 
-## Project Structure
+- Ruby 3.x. The project pins Ruby `3.3.6` in `.ruby-version`.
+- Bundler (`gem install bundler`)
 
-- `_config.yml`: Site configuration (theme, title, description)
-- `index.md`: Homepage content
-- `assets/css/style.scss`: Theme import and style overrides
-- `CNAME`: Custom domain for GitHub Pages
-
-## Local Development
-
-1. Install Ruby and Bundler.
-2. Install Jekyll and Bundler:
+On macOS, avoid the built-in Apple Ruby (`ruby 2.6.x`). With Homebrew:
 
 ```bash
-gem install jekyll bundler
+brew install rbenv ruby-build
+rbenv install 3.3.6
+rbenv local 3.3.6
+gem install bundler
 ```
 
-3. (Recommended) Create a `Gemfile` and pin GitHub Pages dependencies.
-4. Run locally:
+### 2) Install dependencies
+
+```bash
+bundle install
+```
+
+### 3) Start local server
 
 ```bash
 bundle exec jekyll serve
 ```
 
-5. Open `http://localhost:4000`.
+Open: <http://127.0.0.1:4000>
 
-## Deployment
+### Common mistake
 
-- Push changes to the repository branch configured for GitHub Pages.
-- GitHub Pages builds the site automatically.
-- Domain mapping is controlled by `CNAME`.
-
-## Customization Notes
-
-- Global site settings live in `_config.yml`.
-- To change page content, edit `index.md`.
-- To customize the look, edit `assets/css/style.scss`.
-
+Do **not** run `source "https://rubygems.org"` in your terminal.
+That line belongs in the `Gemfile` and is already provided in this repository.
