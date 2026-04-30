@@ -1,0 +1,9 @@
+title: Martin Scholz
+email: martin@scholz.technology
+description: >-
+  Data & AI | Architecture | Real-world Systems
+baseurl: ""
+url: ""
+theme: jekyll-theme-midnight
+plugins:
+  - jekyll-seo-tag
