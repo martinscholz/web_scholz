@@ -11,8 +11,8 @@ Information according to § 5 TMG and § 18 Abs. 2 MStV.
 ## Service Provider
 
 Martin Scholz  
-[Street and number]  
-[Postal code, city]  
+Schiefer Berg 77  
+38124 Braunschweig  
 Germany
 
 Email: [martin@scholz.technology](mailto:martin@scholz.technology)
@@ -20,8 +20,8 @@ Email: [martin@scholz.technology](mailto:martin@scholz.technology)
 ## Responsible for Content according to § 18 Abs. 2 MStV
 
 Martin Scholz  
-[Street and number]  
-[Postal code, city]  
+Schiefer Berg 77  
+38124 Braunschweig  
 Germany
 
 ## Liability for Contents

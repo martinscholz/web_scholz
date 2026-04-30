@@ -11,8 +11,8 @@ permalink: /datenschutz/
 Controller within the meaning of the General Data Protection Regulation (GDPR):
 
 Martin Scholz  
-[Street and number]  
-[Postal code, city]  
+Schiefer Berg 77  
+38124 Braunschweig  
 Germany  
 Email: [martin@scholz.technology](mailto:martin@scholz.technology)
 

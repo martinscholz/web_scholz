@@ -21,6 +21,12 @@ From idea to impact, I turn complex technology into practical, scalable solution
 - Bridging business, architecture and delivery
 - Building teams, platforms and real products — not just concepts
 
+## Where I am most effective
+
+- When things are unclear
+- When systems are complex
+- When outcomes actually matter
+
 ## What makes me different
 
 I work at the intersection of:
@@ -28,12 +34,6 @@ I work at the intersection of:
 - **Technology** — AI, data platforms, software architecture
 - **Execution** — delivery, scaling, making things work
 - **Context** — understanding industries, organizations and real constraints
-
-## Where I am most effective
-
-- When things are unclear
-- When systems are complex
-- When outcomes actually matter
 
 ## Selected experience
 
