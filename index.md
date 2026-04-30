@@ -4,7 +4,7 @@ title: Martin Scholz
 ---
 
 # Martin Scholz
-## Data & AI \| Architecture \| Real-world Systems
+## Building data and AI capabilities that deliver real outcomes
 
 I build data and AI systems that work — in real-world environments.
 
