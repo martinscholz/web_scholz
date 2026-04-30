@@ -24,10 +24,6 @@ Martin Scholz
 [Postal code, city]  
 Germany
 
-## VAT Identification Number
-
-[Enter VAT ID according to § 27a UStG, if applicable]
-
 ## Liability for Contents
 
 As a service provider, I am responsible for my own contents on these pages under general laws. According to §§ 8 to 10 TMG, however, I am not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
