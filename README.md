@@ -27,10 +27,16 @@ bundle install
 ### 3) Start local server
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 Open: <http://127.0.0.1:4000>
+
+If you only want to validate the static build without starting a server:
+
+```bash
+bundle exec jekyll build
+```
 
 ### Common mistake
 
