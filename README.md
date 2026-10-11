@@ -18,13 +18,41 @@ rbenv local 3.3.6
 gem install bundler
 ```
 
+On Linux, install Ruby build dependencies first. For Debian/Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install -y git curl build-essential libssl-dev libreadline-dev zlib1g-dev
+```
+
+Then install Ruby `3.3.6` with your preferred version manager. With `rbenv`:
+
+```bash
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
+source ~/.bashrc
+rbenv install 3.3.6
+rbenv local 3.3.6
+gem install bundler
+```
+
 ### 2) Install dependencies
 
 ```bash
 bundle install
 ```
 
-### 3) Start local server
+### 3) Test the build
+
+```bash
+bundle exec jekyll build
+```
+
+This generates the static site in `_site/` and verifies that Jekyll can render the pages.
+
+### 4) Start local server
 
 ```bash
 bundle exec jekyll serve
