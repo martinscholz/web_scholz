@@ -1,18 +1,5 @@
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a
-      class="brand"
-      href="{{ '/' | relative_url }}"
-      aria-label="Martin Scholz — home"
-      ><span class="monogram" aria-hidden="true">ms<span>.</span></span
-      ><span>Martin Scholz</span></a
-    >
-    <nav aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}#expertise">Expertise</a>
-      <a href="{{ '/' | relative_url }}#experience">Experience</a>
-      <a class="nav-contact" href="{{ '/' | relative_url }}#contact"
-        >Let’s talk <span aria-hidden="true">↗</span></a
-      >
-    </nav>
-  </div>
+{% unless page.home %}
+<header class="site-header wrap">
+  <a href="{{ '/' | relative_url }}">← Martin Scholz</a>
 </header>
+{% endunless %}

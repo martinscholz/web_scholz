@@ -40,8 +40,8 @@ That line belongs in the `Gemfile` and is already provided in this repository.
 ## Design and content
 
 - `index.html` contains the homepage content.
-- `_layouts/default.html` and `_includes/` share navigation and footer across all pages.
-- `assets/css/site.css` holds the responsive design and reduced-motion/print styles.
+- `_layouts/default.html` and `_includes/` share the page structure and legal links.
+- `assets/css/site.css` holds the minimal responsive layout.
 - Legal content stays in `impressum.md` and `datenschutz.md`.
 
 The site uses local CSS and system fonts, with no JavaScript, trackers, external font requests, or runtime services. GitHub Pages builds the existing Jekyll project directly from `gh-pages`; no Node build is needed.
